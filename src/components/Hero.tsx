@@ -56,20 +56,22 @@ export default function Hero() {
           animate="visible"
           className="mb-8"
         >
-          <motion.h1 
-            className="text-6xl md:text-8xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-4"
-            animate={{ 
-              backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
-            }}
-            transition={{ 
-              duration: 5,
-              repeat: Infinity,
-              ease: "linear"
-            }}
-            style={{ backgroundSize: "200% 200%" }}
-          >
-            Hackdays 3.0
-          </motion.h1>
+          <motion.h1
+  className="text-6xl md:text-8xl font-brick bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-4"
+  animate={{
+    backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+  }}
+  transition={{
+    duration: 5,
+    repeat: Infinity,
+    ease: "linear",
+  }}
+  style={{ backgroundSize: "200% 200%"
+    }}
+>
+  Hackdays 3.0
+</motion.h1>
+
           <motion.p className="text-xl md:text-2xl text-blue-200 font-semibold">
             Department of Information Technology
           </motion.p>
